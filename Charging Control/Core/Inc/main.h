@@ -57,8 +57,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BMS_Fault_Pin GPIO_PIN_2
+#define BMS_Fault_GPIO_Port GPIOC
+#define IMD_Fault_Pin GPIO_PIN_3
+#define IMD_Fault_GPIO_Port GPIOC
 #define CP_read_Pin GPIO_PIN_0
 #define CP_read_GPIO_Port GPIOA
+#define PP_Read_Pin GPIO_PIN_1
+#define PP_Read_GPIO_Port GPIOA
+#define LCD_CS_Pin GPIO_PIN_4
+#define LCD_CS_GPIO_Port GPIOA
+#define LCD_RST_Pin GPIO_PIN_4
+#define LCD_RST_GPIO_Port GPIOC
+#define LCD_A0_Pin GPIO_PIN_5
+#define LCD_A0_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 
